@@ -35,7 +35,7 @@ if __name__ == "__main__":
         start = float(input("Enter the start of the range for thr interval :"))
         end = float(input("Enter the end of the range for thr interval :"))
         stepsize = float(input("Enter the step size for searching the interval (eg : 1): "))
-        tol = 0.00001
+        tol = 0.000001
         max_it = int(input("Enter the maximum number of iteration : "))
 
         a,b = interval(start,end,stepsize)
